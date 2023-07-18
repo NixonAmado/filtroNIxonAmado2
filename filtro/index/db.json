@@ -1,0 +1,54 @@
+{
+  "departamentos": [
+    {
+      "id": 1,
+      "nomDepartamento": "Santander"
+    },
+    {
+      "id": 2,
+      "nomDepartamento": "Cundinamarca"
+    }
+  ],
+  "ciudades": [
+    {
+      "nomCiudad": "bucaramanga",
+      "coordenadas": {
+        "lat": "4",
+        "lon": "72"
+      },
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/54/Bucaramanga_v_cu.JPG",
+      "departamentoId": 1,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "nomCiudad": "Barrancabermeja",
+      "departamentoId": 1,
+      "imagen": "https://www.terminaldetransporte.gov.co/wp-content/uploads/2022/06/barrancabermeja_nota.jpg",
+      "coordenadas": {
+        "lat": 4,
+        "lon": 72
+      }
+    },
+    {
+      "id": 3,
+      "nomCiudad": "Bogotá",
+      "departamentoId": 2,
+      "imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/JAAYCWLOQRHOTKSLAZAH37REYM.jpeg",
+      "coordenadas": {
+        "lat": 4,
+        "lon": 72
+      }
+    },
+    {
+      "id": 4,
+      "nomCiudad": "Cajicá",
+      "departamentoId": 2,
+      "imagen": "https://www.viajarenverano.com/wp-content/uploads/2019/06/Cajica-Iglesia.jpg",
+      "coordenadas": {
+        "lat": 4,
+        "lon": 72
+      }
+    }
+  ]
+}
