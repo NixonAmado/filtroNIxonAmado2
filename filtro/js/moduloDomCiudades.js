@@ -43,14 +43,13 @@ async function listarCiudades(contenedor) {
     let tr = e.target.closest("tr"); 
     let idTr = tr.id;
 
-     const ciudad = await(await fetch(`http://localhost:3000/ciudades/${idTr}`)).json()   
-     let contenedorModal = document.getElementById('div-modal-editar-ciudad');
-     contenedorModal.innerHTML = 
-     `
- 
+      const ciudad = await(await fetch(`http://localhost:3000/ciudades/${idTr}`)).json()   
+      let contenedorModal = document.getElementById('div-modal-editar-ciudad');
+      contenedorModal.innerHTML = 
+      // se añade todo el modal
+      `
 <!-- Modal -->
 <div class="modal" id="modalCiudadEditar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-<!-- modal para añadir ciudades -->
  <div class="modal-dialog">
    <div class="modal-content">
      <div class="modal-header">

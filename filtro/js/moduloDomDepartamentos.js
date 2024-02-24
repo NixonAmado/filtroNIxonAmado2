@@ -52,11 +52,10 @@ async function listarDepartamentos(contenedor) {
      `     
      <!-- Modal -->
      <div class="modal" id="modalEditar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-       <!-- modal para añadir departamento -->
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                 <h3 class="fs-3 text-center">Añadir Departamento</h3>
+                 <h3 class="fs-3 text-center">Editar Departamento</h3>
               </div>
               <div class="modal-body">
                       <div class="mb-3">
@@ -76,8 +75,7 @@ async function listarDepartamentos(contenedor) {
             // Llamar a la función show() para abrir el modal
             modal.show();
             
-            //añadiar addEvent al boton de editar ya que solo existe cuando se muestra este modal
-            
+            //añadir addEvent al boton de editar ya que solo existe cuando se muestra este modal
             let formRutaEditBtn = document.getElementById('form-depart-btn-edit').
             addEventListener("click",()=>{
              //lee los valores introducidos en el modal y genera un objeto con esos valores

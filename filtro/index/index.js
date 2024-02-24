@@ -109,7 +109,7 @@ addEventListener("click",async ()=>{
         `
           <div class="col-3 d-flex bg-image hover-overlay  ripple" data-mdb-ripple-color="light">
             <img src="${ciudad.imagen}" class="img-fluid" alt="${ciudad.nomCiudad}"/>
-            <a href="#!">
+            <a href="#navbarExample01">
               <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
             </a>
           </div>
